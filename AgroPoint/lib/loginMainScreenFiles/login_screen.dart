@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:flutter_login/flutter_login.dart';
 import 'package:turkify_bem/APPColors.dart';
+import 'package:turkify_bem/loginPageFiles/values/app_colors.dart';
 import 'constants.dart';
 import 'custom_route.dart';
 import '../dashboard_screen.dart';
@@ -169,7 +170,7 @@ class LoginScreen extends StatelessWidget {
           fontWeight: FontWeight.w600,
         ),
         buttonTheme: LoginButtonTheme(
-          backgroundColor: Colors.red,
+          backgroundColor: baseLightColor,
           splashColor: darkRed,
           highlightColor:baseLightColor,
           elevation: 5.0,

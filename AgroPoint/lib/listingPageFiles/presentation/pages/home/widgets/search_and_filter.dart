@@ -34,7 +34,7 @@ class SearchAndFilter extends StatelessWidget {
                     cursorColor: kColorPrimary,
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: 'Search a level or name',
+                      hintText: 'Search a product or name',
                       hintStyle: kSearchTextStyle,
                     ),
                   ),

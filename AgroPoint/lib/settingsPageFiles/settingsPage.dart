@@ -99,7 +99,7 @@ class settingsPage extends StatelessWidget {
                           backgroundColor: baseDeepColor,
                         ),
                         title: 'About',
-                        subtitle: "Learn more about Turkify",
+                        subtitle: "Learn more about AgroPoint",
                       ),
                     ],
                   ),

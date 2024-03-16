@@ -2,14 +2,14 @@ import 'listingPageFiles/presentation/pages/home/widgets/personDetails.dart';
 
 List<Person> persons = [
   Person(distance: 0.2,
-    name: 'Berk Emre Mert',
+    name: 'Mert Kargocuoglu',
     age: 21,
-    offer1: Skill(skill: "Cucumber", description: ""),
+    offer1: Skill(skill: "Cucumbers", description: ""),
     wish1: skillMap['Turkish']!,
     wish2: skillMap['Biology']!,
     wish3: skillMap['Design']!,
     imageLink: 'https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg',
-    description: 'I am Berk I love the world!!',
+    description: 'I am Mert I love the world!!',
     rating: 4.9,
     email: 'b@.com',
     password: '.',
@@ -17,7 +17,10 @@ List<Person> persons = [
   Person(distance: 1.8,
     name: 'Burak Özbağcı',
     age: 100,
-    offer1: skillMap['Turkish']!,
+    offer1: Skill(
+      skill: 'Truffles',
+      description: 'Skilled in growing truffles.',
+    ),
     offer2: skillMap['Biology']!,
     wish1: skillMap['Mathematics']!,
     imageLink: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -29,7 +32,10 @@ List<Person> persons = [
   Person(distance: 1.8,
     name: 'Ronaldo',
     age: 36,
-    offer1: skillMap['Design']!,
+    offer1: Skill(
+      skill: 'Cherry Tomatoes',
+      description: 'Skilled in growing cherry tomatoes.',
+    ),
     offer2: skillMap['Biology']!,
     wish1: Skill(
       skill: 'Tea',
@@ -81,8 +87,8 @@ List<Person> persons = [
     name: 'Mehmet Şahin',
     age: 35,
     offer1: Skill(
-      description: 'I am experienced in project management.',
-      skill: 'Project Management',
+      description: 'I am experienced in Pears.',
+      skill: 'Pears',
     ),
     offer2: skillMap['Biology']!,
     wish1: Skill(
@@ -177,8 +183,8 @@ List<Person> persons = [
     name: 'Zeynep Tekin',
     age: 32,
     offer1: Skill(
-      description: 'I am skilled in customer service.',
-      skill: 'Customer Service',
+      description: 'I am skilled in Blackberries.',
+      skill: 'Blackberries',
     ),
     wish1: Skill(
       skill: 'Cooking',

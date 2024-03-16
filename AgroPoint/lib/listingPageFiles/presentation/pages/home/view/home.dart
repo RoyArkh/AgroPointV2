@@ -26,7 +26,7 @@ class ScreenHome extends StatelessWidget {
             children: [
               SearchAndFilter(),
               kSizedBoxHeight_8,
-              TitleBar__widget(title: 'Best tutors for you', ontap: () {
+              TitleBar__widget(title: 'Best farmers for you', ontap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SeeAllNear()),

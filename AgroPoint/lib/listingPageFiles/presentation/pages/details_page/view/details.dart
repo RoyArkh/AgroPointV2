@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../../APPColors.dart';
 import '../../../../../referencePageFiles/referencePage.dart';
 import '../../../components/button.dart';
 import '../../../components/text.dart';
@@ -35,7 +36,7 @@ class ScreenDetails extends StatelessWidget {
                     width: double.infinity,
                     padding: EdgeInsets.all(16), // Adjust padding as needed
                     decoration: BoxDecoration(
-                      color: Colors.deepPurple.withOpacity(0.6), // Adjust the opacity as needed
+                      color: darkRed.withOpacity(0.6), // Adjust the opacity as needed
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Column(
@@ -79,7 +80,7 @@ class ScreenDetails extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.deepPurple, // Text color
+                                color: darkRed, // Text color
                               ),
                             ),
                             Row(
@@ -89,7 +90,7 @@ class ScreenDetails extends StatelessWidget {
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.deepPurple, // Text color
+                                    color: darkRed, // Text color
                                   ),
                                 ),
                                 SizedBox(width: 4),
@@ -155,7 +156,7 @@ class ScreenDetails extends StatelessWidget {
                         ),
                       ]),
                       child: Accent__Button__Medium(
-                        text: 'Match Now',
+                        text: 'Match Farmer',
                         leftIconVisibility: false,
                         rightIconVisibility: false,
                         onTap: () {},

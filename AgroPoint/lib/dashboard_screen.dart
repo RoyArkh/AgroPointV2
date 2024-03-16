@@ -153,9 +153,9 @@ class _DashboardScreenState extends State<DashboardScreen>
             context,
             MaterialPageRoute(builder: (context) => ChatPage()),
           );
-        } else if (identifier == 'calendar') {
+        // } else if (identifier == 'calendar') {
           //FILL HERE -BERK
-        } else if (identifier == 'task') {
+        // } else if (identifier == 'task') {
           //FILL HERE -BERK
         } else if (identifier == 'match') {
           _loadingController!.reverse();
@@ -169,16 +169,16 @@ class _DashboardScreenState extends State<DashboardScreen>
               ),
             ),
           );
-        } else if (identifier == 'profile') {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const ScaffoldWidget(
-                title: 'Kelime Kartları',
-                child: SwiperPage(),
-              ),
-            ),
-          );
+        // } else if (identifier == 'profile') {
+        //   Navigator.push(
+        //     context,
+        //     MaterialPageRoute(
+        //       builder: (context) => const ScaffoldWidget(
+        //         title: 'Kelime Kartları',
+        //         child: SwiperPage(),
+        //       ),
+        //     ),
+        //   );
         } else if (identifier == 'settings') {
           _loadingController!.reverse();
           await Future.delayed(Duration(milliseconds: 1300));
@@ -205,19 +205,19 @@ class _DashboardScreenState extends State<DashboardScreen>
     return GridView.count(
       padding: const EdgeInsets.symmetric(
         horizontal: 32.0,
-        vertical: 100,
+        vertical: 150,
       ),
       childAspectRatio: .9,
       // crossAxisSpacing: 5,
       crossAxisCount: 3,
       children: [
-        _buildButton(
-          icon: FontAwesomeIcons.user,
-          label: 'Profile',
-          interval: const Interval(0, aniInterval),
-          identifier: 'profile',
-          iconColor: iconColor,
-        ),
+        // _buildButton(
+        //   icon: FontAwesomeIcons.user,
+        //   label: 'Profile',
+        //   interval: const Interval(0, aniInterval),
+        //   identifier: 'profile',
+        //   iconColor: iconColor,
+        // ),
         _buildButton(
           icon: FontAwesomeIcons.comments,
           label: 'Group Chat',
@@ -225,20 +225,20 @@ class _DashboardScreenState extends State<DashboardScreen>
           identifier: 'chat',
           iconColor: iconColor,
         ),
-        _buildButton(
-          icon: FontAwesomeIcons.calendar,
-          label: 'Calendar',
-          interval: const Interval(step * 2, aniInterval + step * 2),
-          identifier: 'calendar',
-          iconColor: iconColor,
-        ),
-        _buildButton(
-          icon: FontAwesomeIcons.listCheck,
-          label: 'Tasks',
-          interval: const Interval(0, aniInterval),
-          identifier: 'task',
-          iconColor: iconColor,
-        ),
+        // _buildButton(
+        //   icon: FontAwesomeIcons.calendar,
+        //   label: 'Calendar',
+        //   interval: const Interval(step * 2, aniInterval + step * 2),
+        //   identifier: 'calendar',
+        //   iconColor: iconColor,
+        // ),
+        // _buildButton(
+        //   icon: FontAwesomeIcons.listCheck,
+        //   label: 'Tasks',
+        //   interval: const Interval(0, aniInterval),
+        //   identifier: 'task',
+        //   iconColor: iconColor,
+        // ),
         _buildButton(
           icon: FontAwesomeIcons.personMilitaryToPerson,
           label: 'Match',
