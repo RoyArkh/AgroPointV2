@@ -180,7 +180,7 @@ List<Person> persons = [
   ),
   Person(
     distance: 1.6,
-    name: 'Zeynep Tekin',
+    name: 'Zeynep Tekin ⭐',
     age: 32,
     offer1: Skill(
       description: 'I am skilled in Blackberries.',

@@ -42,7 +42,7 @@ class settingsPage extends StatelessWidget {
                   ),
                   SizedBox(height: 15),
                   Text(
-                    user?.displayName ?? "Name Surname",
+                    user?.displayName ?? "Berk Emre Mert",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                     textAlign: TextAlign.center,
                   ),
