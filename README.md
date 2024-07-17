@@ -6,4 +6,4 @@ AgroPoint is an app which will make it easier for consumers to support smallhold
 
 
 https://www.youtube.com/watch?v=7a3axzSEF2w
-
+https://www.vodafonecampuslab.community/proyectos-vcl/agropoint/
